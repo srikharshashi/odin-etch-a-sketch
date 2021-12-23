@@ -1,0 +1,87 @@
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div
+{
+    /* border: 2px solid black; */
+}
+.header
+{
+    border: 2px solid black;
+    height: 50px;
+    margin: 10px;
+
+}
+.content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 2px solid black;
+    height: 800px;
+    margin: 10px;
+    /* width: 800px; */
+}
+.footer
+{
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+.container
+{
+    
+    height: 670px;
+    width: 670px;
+    border: 2px solid red;
+}
+.outer
+{
+    display: flex;
+    flex-direction: row;
+    /* height: 40px; */
+    border: 1px solid blue;
+}
+.inner 
+{
+    /* width: 40px; */
+    border: 1px solid black;
+}
+.colored
+{
+    background-color:aqua;
+}
+{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.startbutton
+{
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.reset 
+{
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
