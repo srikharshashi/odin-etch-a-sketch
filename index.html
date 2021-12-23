@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <script src="script.js" defer></script>
 
 </head>
+
 <body>
     <div class="header"></div>
     <div class="content">
@@ -18,13 +20,21 @@
             <p>Select the number of squares</p>
             <div class="slidercont">
                 <input type="range" min="10" max="64" value="20" class="slider">
-              </div>
-              <p class="sqno"> </p>
-              
+            </div>
+            <p class="sqno">Sqaures : </p>
+            <label for="colorselect">Select the color</label>
+            <select name="colorselect" class="colorselect" id="colorselect">
+                <option value="aqua">
+                    Aqua</option>
+                    <option value="green">Green</option>
+                <option value="red">Red</option>
+            </select>
+
         </div>
         <div class="container"></div>
     </div>
     <div class="footer"></div>
 
 </body>
+
 </html>
