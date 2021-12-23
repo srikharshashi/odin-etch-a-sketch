@@ -2,6 +2,7 @@ const maincont = document.querySelector(".container");
 const start = document.querySelector(".startbutton");
 const reset = document.querySelector(".reset");
 const slider = document.querySelector(".slider");
+const sqno=document.querySelector(".sqno");
 console.log(slider);
 maincont.style.height = "700px";
 maincont.style.width = "700px";
@@ -28,6 +29,7 @@ function init() {
       }
    }
    inner=document.querySelectorAll(".inner");
+   sqno.textContent=`${squares}`;
 }
 init();
 
