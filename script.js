@@ -3,17 +3,17 @@ const start = document.querySelector(".startbutton");
 const reset = document.querySelector(".reset");
 const slider = document.querySelector(".slider");
 const sqno = document.querySelector(".sqno");
-maincont.style.height = "700px";
-maincont.style.width = "700px";
+maincont.style.height = "600px";
+maincont.style.width = "600px";
 var squares = 20;
-var side = 700 / squares;
+var side = 600 / squares;
 var _isactive = false;
 var inner = undefined;
 var color="aqua";
 
 
 function init() {
-   side = 700 / squares;
+   side = 600 / squares;
    for (var i = 1; i <= squares; i++) {
       const newbox = document.createElement("div");
       newbox.style.height = `${side}px`;

@@ -1,3 +1,12 @@
+*
+{
+    font-family: 'Oswald', sans-serif;
+
+}
+p
+{
+    font-size: 25px;
+}
 .body
 {
     display: flex;
@@ -7,9 +16,15 @@
 }
 .header
 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 50px;
-    margin: 10px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+
 
 }
 .content
@@ -18,15 +33,16 @@
     justify-content: space-around;
     align-items: center;
 
-    border: 2px solid black;
     height: 800px;
-    margin: 10px;
+    margin: 10px 0px;
 }
 .footer
 {
     height: 50px;
-    margin: 10px;
-    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .container
@@ -34,7 +50,7 @@
     
     height: 670px;
     width: 670px;
-    border: 2px solid red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .outer
 {
@@ -43,13 +59,13 @@
 }
 .inner 
 {
-    /* border: 0.5px solid black; */
+    border: 0.5px solid rgba(173, 163, 163, 0.521);
 }
 .controls
 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 600px;
     width: 500px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;

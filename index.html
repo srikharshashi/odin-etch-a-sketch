@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-A-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 
 </head>
 
 <body>
-    <div class="header"></div>
+    <div class="header">Etch-A-Sketch</div>
     <div class="content">
         <div class="controls">
             <button class="startbutton" type="button">Start</button>
@@ -22,18 +26,19 @@
                 <input type="range" min="10" max="64" value="20" class="slider">
             </div>
             <p class="sqno">Sqaures : </p>
-            <label for="colorselect">Select the color</label>
+            <label for="colorselect" style="font-size: 25px ;">Select the color</label>
             <select name="colorselect" class="colorselect" id="colorselect">
                 <option value="aqua">
                     Aqua</option>
-                    <option value="green">Green</option>
+                <option value="green">Green</option>
                 <option value="red">Red</option>
             </select>
 
         </div>
         <div class="container"></div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">Made with 
+        ❤️ by Srikhar Shashi for The Odin Project</div>
 
 </body>
 
