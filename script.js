@@ -11,7 +11,6 @@ var _isactive = false;
 var inner = undefined;
 var color="aqua";
 
-
 function init() {
    side = 600 / squares;
    for (var i = 1; i <= squares; i++) {
